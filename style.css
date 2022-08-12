@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+    width: 960px;
+}
+
+h1, h2, h3 {
+    color:brown;
+}
+ul {
+    list-style-image: url("images/tiny-coffee-cup.gif");
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* I think thois might not be necessary because of the display block properties*/
+    float: left;
+}
+
+nav a:link, nav a:visited {
+    background-color: brown;
+    color: white;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+nav a:hover {
+    background-color: black;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition:  all 0.5s ease-in-out;
+    -ms-tansition:  all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+aside {
+    width: 280px;
+    float: right;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.photo-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.photo-right {
+    float: right;
+    margin-left: 20px;
+}
+
+header {
+    background-image: url("images/coffee-beans.jpg");
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+header h1 {
+    color: rgba(256,256,256,.8);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+    
+}
+
+footer {
+    margin: 40px 0px;
+}
+
+footer nav a:link, footer nav a:visited {
+    color: gray;
+    text-decoration: none; /* I think this looks like repetition as thid prpty is already set above @ the anchor tag*/
+    display: block; /* I think this looks like repetition as thid prpty is already set above @ the nav tag*/
+    width: 160px;   /* I think this looks like repetition as thid prpty is already set above @ the nav tag*/
+    text-align: center;  /* I think this looks like repetition as thid prpty is already set above @ the nav tag*/
+    background-color: white;
+}
+
+footer nav a:hover{ 
+    color: black;
+}
+
+td,th {
+    border: 2px solid brown;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+video {
+ margin: 0 0 20px 160px; 
+ -webkit-filter: grayscale(100%); 
+ -moz-filter: grayscale(100%); 
+ filter: grayscale(100%);  
+}
